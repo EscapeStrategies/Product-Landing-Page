@@ -1,0 +1,128 @@
+html {
+  font-size: 110%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Baskervville, sans-serif;
+  background-color: rgba(233, 224, 201, 0.7);
+}
+
+.feature {
+  margin-top: 1.3rem;
+  flex-wrap: wrap;
+  margin-bottom: -15px;
+}
+
+p {
+  margin-bottom: 1.4rem
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: -45;
+  margin-top: 100px;
+}
+
+img {
+  width: 75px;
+  margin-right: auto;
+}
+
+#nav-bar {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.nav-link {
+  color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#price {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  height: 400px;
+  width: 300px;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 50px
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#buy1 {
+  padding: 10 50;
+  margin: 69 0;
+}
+
+#buy2 {
+  padding: 10 50;
+  margin: 69 0;
+}
+
+#buy3 {
+  padding: 10 50;
+  margin: 46 0
+}
+
+li {
+  margin-top: 15px;
+}
+
+.price {
+  margin-top: -15px;
+  font-family: Arial;
+  font-weight: 525;
+}
+
+.features {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60em;
+  border: 0;
+}
+
+.title {
+  display: inline;
+  position: relative;
+  top: -25;
+  left: -10
+}
+
+form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 50px
+}
+
+#email {
+  height: 40px;
+  font-size: 1.1rem
+}
+
+#submit {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 2000px) and (min-width: 0px) {
+  body {
+    font-family: Baskervville, Sans-serif;
+  }
+}
